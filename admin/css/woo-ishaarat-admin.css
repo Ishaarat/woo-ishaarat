@@ -1,0 +1,445 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+img.woo_ishaarat_ajax_loading , img.woo_ishaarat_ajax_loadings{
+  width: 90px !important;
+  display: none;
+}
+img.woo_ishaarat_ajax_loading.woo_ishaarat_export,img.woo_ishaarat_ajax_loadings.woo_ishaarat_exports{
+  margin-left: 120px;
+}
+
+#adminmenu .wp-menu-image img{
+  padding: unset !important;
+}
+
+
+div#ishaarat-center-panel.w3-bar {
+  width: 98px !important;
+  height: 350px !important;
+  position: sticky !important;
+}
+
+.ishaarat-center-panel-values {
+  background-color: #f1f1f1 !important;
+}
+
+.w3-bar-item.w3-button {
+  width: inherit !important;
+}
+
+.ishaarat_background_color {
+  background-color: #0073aa !important;
+  color: white;
+}
+
+.ishaarat-wrapper {
+  width: 100%;
+}
+
+.ishaarat-list-names {
+  width: 700px;
+  height: 20px;
+  display: block;
+  border: 2px solid #333333;
+  box-shadow: 0px 0px 12px rgba(255, 255, 255, 0.3);
+  margin-left: 130px;
+}
+
+.ishaarat-list-names.ishaarat-filename{
+  padding : 10px;
+}
+
+.ishaarat-fields ,.ishaarat-btns{
+  display: inline-block;
+}
+
+.ishaarat-list-names {
+  display: inline !important;
+  margin-left: unset !important;
+}
+
+select.ishaarat-export-format {
+  background-size: 30px;
+  background-position-x: 130px;
+  width: 159px;
+  background-color: white;
+}
+
+.ishaarat-exports {
+  border-radius: 10px;
+  background-color: white;
+  text-align: center;
+}
+
+.ishaarat-export:hover,.ishaarat-export:focus,.ishaarat-exports:hover {
+  background-color: #66ccFF;
+  color: white;
+}
+
+.ishaarat-export-return,.ishaarat-exports-return:hover{
+  margin : 21px;
+  margin-left : 50px;
+}
+
+div.ishaarat-export-parent{
+  margin-top:20px;
+}
+/*Modal for the version 1.2.1*/
+
+/* The Modal (background) */
+.woo_ishaarat_modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 40px ;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+.woo_ishaarat_modal_header{
+  padding: 2px 16px;
+  background-color: rgb(0, 133, 186);
+  color: white !important;
+  border-radius: 6px;
+}
+
+.woo_ishaarat_modal_header h2{
+  background-color: rgb(0, 133, 186);
+  color: white !important;
+}
+/* Modal Content/Box */
+.woo_ishaarat_modal_content {
+  background-color: #fefefe;
+  border-radius: 6px;
+  margin: 15% auto; /* 15% from the top and centered */
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+.woo_ishaarat_central_fields_panels{
+  height: 100px;
+}
+
+/* The Close Button */
+.woo_ishaarat_close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.woo_ishaarat_close:hover,
+.woo_ishaarat_close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+
+.wooishaarat-tab:hover , .wooishaarat-tab:focus{
+	background-color: white;
+	color: black;
+}
+
+input.wooishaarat-text {
+  width: 100%;
+  color : black !important;
+  padding: 8px 10px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: none;
+  border-radius: 4px;
+  background-color : rgb(241, 241, 241)!important;
+}
+
+.wooishaarat-text-customs {
+  color : black !important;
+  padding: 8px 10px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border-radius: 4px;
+  border-style : solid !important;
+}
+
+.wooishaarat-text-customs-api{
+  width: 100%;
+  color : black !important;
+  padding: 8px 10px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border-radius: 4px;
+  border-style : solid !important;
+}
+
+.wooishaarat-query{
+  width: 50%;
+  color : black !important;
+  padding: 8px 10px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border-radius: 4px;
+  border-style : solid !important;
+}
+
+.wooishaarat-utility-panel{
+  text-align: center;
+  margin-bottom: 12px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  box-sizing: border-box;
+  border: none;
+  border-radius: 4px;
+}
+
+.wooishaarat-utility-panels{
+  text-align: center;
+  margin-bottom: 12px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  box-sizing: border-box;
+  border: none;
+  border-radius: 4px;
+  background-color: white !important;
+}
+
+.wooishaarat-tab-active{
+  background-color: white !important;
+}
+
+.wooishaarat-settings-panel,.wooishaarat-options-tab {
+  margin-bottom: 12px;
+  padding-top: 5px;
+  padding-left: 8px;
+  padding-bottom: 8px;
+  box-sizing: border-box;
+  border: none;
+  border-radius: 4px;
+}
+
+textarea.wooishaarat-textarea {
+  width: 60%;
+  height: 150px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  color : black;
+  resize: none;
+}
+
+input.wooishaarat-text ::-webkit-input-placeholder {
+  color: rgb(85, 85, 85)!important;
+}
+
+
+
+table.wooishaarat-content {
+  border-collapse: collapse;
+  width: 100%;
+  text-align : center
+  }
+
+
+  td.wooishaarat-content, th.wooishaarat-content {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+  
+  }
+
+  tr.wooishaarat-content:nth-child(even) {
+  background-color: #66ccff;
+  color : white
+  
+  }
+
+  .woo-ishaarat-response-status{
+    display: none; 
+  }
+
+
+
+  .wooishaarat-load-contacts_label_style{
+    padding: 10px;
+  }
+
+  div#publishing-action.wooishaarat-publishing-action{
+    float : unset !important;
+  }
+
+  .wooishaarat-bulk-sms-send-min-banner{
+    background: unset !important;
+  }
+
+  .wooishaarat-service-box{
+      flex: 0 0 28.9%;
+      margin: 2.2%;
+      text-align: center;
+      border-radius: 5px;
+      background-color: #66ccFF !important;
+  }
+
+  div.service-thumb img{
+    max-width: 100%;
+  }
+
+  ::-webkit-input-placeholder {
+    text-align: center;
+ }
+ 
+ :-moz-placeholder { /* Firefox 18- */
+    text-align: center;  
+ }
+ 
+ ::-moz-placeholder {  /* Firefox 19+ */
+    text-align: center;  
+ }
+ 
+ :-ms-input-placeholder {  
+    text-align: center; 
+ }
+
+ .wooishaarat-comparison-area {
+  display: flex;
+  justify-content: space-between;
+}
+
+.wooishaarat-comparison-area .wooishaarat-compare-box {
+  flex: 0 0 48% !important;
+  background-color: #fff !important;
+  border: 1px solid #E0E9EC !important;
+  border-radius: 5px !important;
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.05) !important;
+  padding: 50px !important;
+  box-sizing: border-box !important;
+}
+
+.wooishaarat-comparison-area .wooishaarat-compare-box .wooishaarat-logo-section {
+  margin-bottom: 58px;
+  position: relative;
+}
+
+.wooishaarat .wooishaarat-comparison-section .wooishaarat-comparison-area .wooishaarat-compare-box {
+  flex: 0 0 48% !important;
+  background-color: rgb(255, 255, 255) !important;
+  border: 1px solid rgb(224, 233, 236) !important;
+  border-radius: 5px !important;
+  box-shadow: 0 1px 2px 0 rgba(0,0,0,.05) !important;
+  padding: 50px !important;
+  box-sizing: border-box !important;
+}
+
+.wooishaarat-features{
+  width: 21px !important;
+  margin-right : 12px;
+}
+
+.wooishaarat-comparison-section .wooishaarat-comparison-area .wooishaarat-compare-box li{
+  
+  font-size : 15px;
+  line-height: 1.5em;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+  display: inline-flex;
+}
+
+.wooishaarat-lite{
+  border-color: #66ccFF !important;
+}
+
+.wooishaarat-pros{
+  border-color: red !important;
+}
+
+.wooishaarat-wrap{
+  margin: 20px 20px 0 20px !important;
+  text-align: center;
+}
+.wooishaarat-upgrade{
+  text-decoration: none !important;
+  color : white !important;
+}
+
+input#wooishaarat-bulk-sms-phone-numbers {
+  width: 150% !important;
+}
+
+
+div.wooishaarat_customer_list p.form-row  span.homescript-input-wrapper{
+  display: inline-flex;
+}
+
+.wooishaarat-textarea-wrap{
+  box-sizing: border-box;
+}
+
+div.wooishaarat-fields-second-wrap span.homescript-input-wrapper{
+    display: inline-block;
+    margin-left: 35%;
+    vertical-align: middle;
+}
+
+.homescript-input-wrapper{
+  display: unset !important;
+}
+
+.wooishaarat-select{
+  width: 50% !important;
+}
+
+.meta-box-sortables input.wooishaarat-date{
+   width: 50% !important;
+}
+
+.wooishaarat-cl-loader, .wooishaarat-cl-status {
+  border: 5px solid #f3f3f3; /* Light grey */
+  border-top: 5px solid #3498db; /* Blue */
+  border-radius: 50%;
+  width: 10px;
+  height: 10px;
+  animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+span.homescript-input-wrapper{
+  float : none !important;
+}
+
+.woo-ishaarat-table-label{
+  width:20% !important;
+  background-color: aliceblue !important;
+  padding: 10px !important;
+  vertical-align: baseline !important;
+}
+
+
+
+div.woo-ishaarat-radio{
+  display: inline-grid;
+}
+
+
+div.woo_ishaarat_wha_api{
+  display: none;
+}
+
+div.woo-ishaarat-use-contact-list.woo-ishaarat-qs-class .select2.select2-container.select2-container--default {
+  width: 500px !important;
+  margin-left: 40px;
+}
+
+.iti.iti--allow-dropdown {
+  margin-left: 28px !important;
+}
+
+#woo_ishaarat_testing_messages {
+  margin-left: 53px !important;
+}

@@ -1,0 +1,11 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+#billing_phone {
+    text-align: right !important;
+}
+
+div.iti.iti--allow-dropdown{
+    display: block !important;
+}
